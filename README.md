@@ -1,4 +1,4 @@
-# DomainDefinedDeepLearning
+# Domain Defined Deep Learning
 
 ## Context
 When we do traditional AI modelling, we try to build a model for the observed data without having any prior knowledge about what the model could be. This has two potential issues:
