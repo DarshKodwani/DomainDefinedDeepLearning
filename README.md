@@ -6,7 +6,7 @@ AI is a prediction machine. The key idea behind AI has been that it is 100% base
 
 Moreover, there are application of AI, where we may have more information(2) than just the observational data. In these cases, if we could capture that information in the AI model, it would likely be more accurate and require less data and computational power.
 
-![alt text](image.png)
+![The three dimensions of traditional AI](AI.png)
 
 When we do traditional AI modelling, we try to build a model for the observed data without having any prior knowledge about what the model could be. This has two potential issues:
 
