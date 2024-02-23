@@ -18,6 +18,14 @@ In general, they domain knowledge can be used to define the architecture (i.e fu
 
 The idea behind PiNNs is to include the 'knowledge' of physics into the AI model. There are equations that define the behaviour of physical objects in the world and the in a PiNN, this equation is directly put into the loss function. 
 
+In general, the loss function of PiNN takes the following form:
+
+$$
+L_{total} = L_{data} + L_{physics}
+$$
+
+where $L_{data}$ is the loss function defined to learn from data. An example of this is mean squared error. $L_{physics}$ is the loss function containing a physics equation, for instance it could be the differential equation describing a Harmonic oscillator.
+
 ## How to use this repo
 
 The notebooks folder contains walkthrough notebooks of specific examples. 
