@@ -4,9 +4,15 @@
 
 AI is a prediction machine. The key idea behind AI has been that it is 100% based on learning patterns from data using statistics and powerful computers. While this is extremely powerful, it is requiring large amounts of data and computational power.
 
-Moreover, there are application of AI, where we may have more information(2) than just the observational data. In these cases, if we could capture that information in the AI model, it would likely be more accurate and require less data and computational power.
+Moreover, there are application of AI, where we may have more information than just the observational data. In these cases, if we could capture that information in the AI model, it would likely be more accurate and require less data and computational power.
 
 ![The three dimensions of traditional AI](AI.png)
+
+The idea behind domain driven AI is to include additional domain knowledge into the AI models. This is particularly powerful when the domain can be described using quantitative methods, such as mathematical sciences.
+
+In general, they domain knowledge can be used to define the architecture (i.e functional form) of the AI models and/or the training methodology of the AI model. We will show examples of both applications and of course, they can be combined as well. The hope is that with this additional information the reliance on data and computation can be reduced and thus pave the way for much more scalable and efficient AI models.
+
+![Adding the fourth dimension of domain](domAI.png)
 
 When we do traditional AI modelling, we try to build a model for the observed data without having any prior knowledge about what the model could be. This has two potential issues:
 
