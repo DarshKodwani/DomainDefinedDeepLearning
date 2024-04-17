@@ -1,6 +1,7 @@
 numpy
-tensorflow
+torch
 matplotlib
-scipy
-mpl_toolkits
 plotting
+black
+ipykernel
+notebook
