@@ -31,3 +31,19 @@ where $L_{data}$ is the loss function defined to learn from data. An example of 
 The notebooks folder contains walkthrough notebooks of specific examples. 
 If new notebooks are to be added with new examples, please make sure they include the mathematical descriptions where appropriate, as well as the code.
 Then, if possible, please include a non-notebook python version that can be used for batch training etc. (eventually on Azure)
+
+### Getting Started with Devcontainer
+
+To get started with the devcontainer, follow these steps:
+
+1. Install Docker: If you don't have Docker installed, you can download and install it from the official Docker website (https://www.docker.com/get-started).
+
+2. Install the Remote - Containers extension: Open Visual Studio Code and install the Remote - Containers extension. This extension allows you to develop inside a containerized environment. You can find the extension in the Visual Studio Code marketplace.
+
+3. Open the workspace in a container: Once you have Docker and the Remote - Containers extension installed, open the repository in Visual Studio Code. You will see a notification asking if you want to reopen the repository in a container. Click on "Reopen in Container" to open the workspace inside a container.
+
+    If the notification doesn't appear, you can manually open the workspace in a container by following these steps:
+    - Mac: Press `Cmd + Shift + P` to open the command palette, then search for "Dev Containers: Open Folder in Container" and select it.
+    - Windows: Press `Ctrl + Shift + P` to open the command palette, then search for "Dev Containers: Open Folder in Container" and select it.
+
+That's it! You are now ready to start using the devcontainer for development in this repository.
