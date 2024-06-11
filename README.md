@@ -47,3 +47,14 @@ To get started with the devcontainer, follow these steps:
     - Windows: Press `Ctrl + Shift + P` to open the command palette, then search for "Dev Containers: Open Folder in Container" and select it.
 
 That's it! You are now ready to start using the devcontainer for development in this repository.
+
+### Tutorials Notebooks
+
+1. Introduction to including physics loss with the Simple Harmonic Oscillator. This notebook, [SHO.ipynb](notebooks/SHO.ipynb), gives you a basic introduction of how to use autgorad within pytorch to add the differential equation and the boundary/initial conditions as loss terms in addition to the data loss. 
+    
+    - _example solutions_: [SHO_answers.ipynb](notebooks/SHO_answers.ipynb)
+
+2. Exapand the solution to the SHO by introducing a damping term. This notebook, [SHO_damped.ipynb](notebooks/SHO_damped.ipynb), adds an extra term to the differntial equation. Additionally, it shows how we can use the physics loss to learn (infer) the damping coefficient. 
+    
+    - _example solutions_: [SHO_damped_answers.ipynb](notebooks/SHO_damped_answers.ipynb)
+
